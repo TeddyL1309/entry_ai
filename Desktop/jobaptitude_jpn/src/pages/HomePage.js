@@ -6,15 +6,12 @@ const HomePage = ({ onTestSelect }) => {
     <div className="max-w-4xl mx-auto">
       <section className="mb-10 text-center">
         <h1 className="text-5xl font-bold text-blue-600 mb-4">
-          entry.ai : 맞춤 ES 작성 서비스
+          entry.ai
         </h1>
-        <p className="text-lg text-gray-600 mb-6">
-          당신의 적성과 성향에 꼭 맞는 엔트리시트 작성을 도와드립니다
-        </p>
-        <div className="bg-blue-50 p-4 rounded-lg inline-block text-left">
-          <p className="text-gray-700">
-            당신의 적성과 이력을 기반으로 맞춤형 엔트리시트를 만들어 드립니다<br />
-            적성검사 결과와 당신의 간단한 이력만 있으면 충분합니다
+        <div className="bg-blue-50 p-6 rounded-lg inline-block text-center mx-auto">
+          <p className="text-gray-700 text-lg">
+            적성검사 결과와 당신의 간단한 이력만 있다면<br />
+            5분만에 맞춤형 엔트리시트 완성!
           </p>
         </div>
       </section>

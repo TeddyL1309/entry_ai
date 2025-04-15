@@ -15,7 +15,7 @@ const Header = ({ onBackToHome }) => {
             onClick={onBackToHome}
             className="text-gray-600 hover:text-blue-600 transition"
           >
-            홈으로
+            🏠 홈으로
           </button>
         </nav>
       </div>
